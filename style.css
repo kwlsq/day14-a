@@ -9,6 +9,7 @@ body {
 h1,
 h2,
 h3,
+h4,
 p {
   margin: 0;
 }
@@ -77,15 +78,20 @@ nav ul {
   gap: 4em;
 }
 
-nav ul li {
+ul li {
   list-style: none;
   text-decoration: none;
 }
 
-nav ul li a,
-nav ul li a:visited {
+a,
+a:visited li a,
+li a:visited {
   text-decoration: none;
   color: #000000;
+}
+
+nav ul li a,
+nav ul li a:visited {
   font-family: "Modern No. 20";
   font-size: 1.125em;
 }
@@ -140,7 +146,8 @@ nav ul li a:visited {
 }
 
 .outlined-button:hover,
-.filled-button:hover {
+.filled-button:hover,
+.footer-social-media .footer-list img:hover {
   cursor: pointer;
 }
 
@@ -270,4 +277,51 @@ nav ul li a:visited {
   height: 57px;
   width: 224px;
   margin-top: 1.5em;
+}
+
+/* footer */
+footer {
+  display: flex;
+  padding: 2em 8em;
+  background-color: #ffffff;
+  gap: 8em;
+}
+
+.footer-list {
+  padding: 0;
+  margin: 0;
+}
+
+footer li {
+  margin-bottom: 1em;
+}
+
+footer h4 {
+  font-weight: 700;
+  font-size: 1.125em;
+  margin-bottom: 0.25em;
+}
+
+footer a {
+  font-weight: 400;
+  font-size: 0.875em;
+}
+
+.footer-social-media {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-social-media .footer-list {
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+}
+
+.footer-social-media {
+  margin-left: 16em;
+}
+
+.store-locator{
+  margin-top: 3em;
 }
