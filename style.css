@@ -139,7 +139,8 @@ nav ul li a:visited {
   margin-top: 1.5em;
 }
 
-.outlined-button:hover {
+.outlined-button:hover,
+.filled-button:hover {
   cursor: pointer;
 }
 
@@ -227,4 +228,46 @@ nav ul li a:visited {
 .showcase-cta p {
   font-weight: 400;
   font-size: 0.75em;
+}
+
+/* Section highlighted product showcase */
+.highlighted-product-showcase {
+  height: 581px;
+  padding: 2em 8em;
+  position: relative;
+}
+
+.highlighted-product-showcase img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.highlighted-product-cta {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 0 8em 2em;
+  padding: 2em;
+}
+
+.highlighted-product-cta h3 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  font-size: 1.5em;
+  letter-spacing: 10px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.filled-button {
+  background-color: #ffffff;
+  font-family: Segoe UI;
+  font-weight: 600;
+  font-size: 0.875em;
+  text-align: center;
+  border: none;
+  height: 57px;
+  width: 224px;
+  margin-top: 1.5em;
 }
