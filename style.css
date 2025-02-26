@@ -19,6 +19,7 @@ header {
   width: 100%;
   position: sticky;
   top: 0;
+  z-index: 1;
   background-color: #c4c4c4;
   display: flex;
   align-items: center;
@@ -129,7 +130,7 @@ nav ul li a:visited {
   font-size: 1.125em;
 }
 
-.new-collection-promo button {
+.outlined-button {
   font-size: 0.875em;
   background-color: transparent;
   border: 1px solid #000000;
@@ -138,7 +139,7 @@ nav ul li a:visited {
   margin-top: 1.5em;
 }
 
-.new-collection-promo button:hover {
+.outlined-button:hover {
   cursor: pointer;
 }
 
@@ -191,4 +192,39 @@ nav ul li a:visited {
 .product-description p:nth-child(2) {
   font-size: 0.875em;
   font-weight: 600;
+}
+
+/* Section single showcase separated cta */
+
+.single-showcase-separated-cta {
+  padding: 2em 8em;
+  display: flex;
+  height: 657px;
+  justify-content: space-between;
+}
+
+.single-showcase-separated-cta img {
+  height: 100%;
+  width: 70%;
+  object-fit: cover;
+  transform: scaleX(-1);
+}
+
+.showcase-cta {
+  display: flex;
+  flex-direction: column;
+  margin-top: auto;
+  width: 260px;
+  gap: 5px;
+  padding: 0 1em;
+}
+
+.showcase-cta h3 {
+  font-weight: 600;
+  font-size: 1.5em;
+}
+
+.showcase-cta p {
+  font-weight: 400;
+  font-size: 0.75em;
 }
