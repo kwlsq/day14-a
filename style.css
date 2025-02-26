@@ -47,6 +47,14 @@ header h2 {
   gap: 3px;
 }
 
+
+header a,
+header a:visited {
+  text-decoration: none;
+  color: #000000;
+}
+
+
 /* header and nav */
 .web-title {
   font-family: "Modern No. 20";
