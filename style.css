@@ -48,3 +48,12 @@ header h2 {
   align-items: center;
   gap: 3px;
 }
+
+/* header and nav */
+.web-title {
+  font-family: "Modern No. 20";
+  font-weight: 400;
+  font-size: 3em;
+  text-align: center;
+  margin: 0.25em 0;
+}
