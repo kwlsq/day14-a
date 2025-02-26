@@ -57,3 +57,28 @@ header h2 {
   text-align: center;
   margin: 0.25em 0;
 }
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  text-align: center;
+  gap: 4em;
+}
+
+nav ul li {
+  list-style: none;
+  text-decoration: none;
+}
+
+nav ul li a,
+nav ul li a:visited {
+  text-decoration: none;
+  color: #000000;
+  font-family: "Modern No. 20";
+  font-size: 1.125em;
+}
